@@ -1,0 +1,22 @@
+{
+    "name": "abushamleh/yii2-opentok",
+    "description": "Yii2 client for opentok https://tokbox.com/developer/sdks/php/",
+    "keywords": ["yii2", "opentok", "tokbox", "yii2-opentok", "Abdelhadi Abu-Shamleh"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Abdelhadi Abu-Shamleh",
+            "email": "abushamleh92@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0",
+        "opentok/opentok": "4.3.x"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "abushamleh\\opentok\\": ""
+        }
+    }
+}
